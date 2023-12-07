@@ -55,7 +55,7 @@ metadata:
   # "namespace" omitted since ClusterRoles are not namespaced
   name: cluster-1-role
 rules:
-- apiGroups: ["v1","apps/v1"]
+- apiGroups: ["v1","apps/v1",""]
   #
   # at the HTTP level, the name of the resource for accessing Secret
   # objects is "secrets"
